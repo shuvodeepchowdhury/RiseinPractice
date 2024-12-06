@@ -1,0 +1,15 @@
+    [package]
+    name = "Platform"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0xcf0c68ffcc2412f80351935957f17c240dbe6fec575646ead4180e7c2ea06bc6'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
